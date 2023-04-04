@@ -1,0 +1,23 @@
+"""
+Tuples:
+1. It is also a Collection/Iterable object, where we can store same or different types of elements
+2. To Create tuple we have to use either tuple class or pair of peranthesis i.e. ()
+3. 
+"""
+t1 = tuple()  # empty tuple object will be created
+t2 = ()
+print(t1, type(t1))
+print(t2, type(t2))
+
+l1 = [100]
+print(l1, type(l1))
+
+t3 = (100)  # Here int object will be created
+tt = (100,)  # tuple object will be created with single element
+print(t3, type(t3))
+print(tt, type(tt))
+# tuple()
+# list()
+# we have to pass only iterable object to a tuple() class constructor.
+t4 = tuple([100])
+print(t4, type(t4))

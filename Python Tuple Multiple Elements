@@ -1,0 +1,14 @@
+t1 = (10, 120, 30, 140, 50)
+t2 = tuple("mic college")
+
+print("t1:\t", t1)
+print("type(t1):\t", type(t1))
+
+print("t2:\t", t2)
+print("type(t2):\t", type(t2))
+
+output:
+t1:      (10, 120, 30, 140, 50)
+type(t1):        <class 'tuple'>
+t2:      ('m', 'i', 'c', ' ', 'c', 'o', 'l', 'l', 'e', 'g', 'e')
+type(t2):        <class 'tuple'>

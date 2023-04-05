@@ -1,0 +1,10 @@
+t1 = (10, 120, 30, 140, 50, 10, 10)
+print(t1.index(120))
+print(t1.index(10))
+ic = t1.index(10)
+ic2 = t1.index(10, ic+1)
+ic3 = t1.index(10, ic2+1)
+print("ic:\t", ic)
+print("ic2:\t", ic2)
+print("ic3:\t", ic3)
+

@@ -1,0 +1,24 @@
+"""
+Tuples:
+-------
+1. It is also a Collection/Iterable object, where we can store same or different types of elements
+2. To Create tuple we have to use either tuple class or pair of peranthesis i.e. ()
+3. Tuple objects are immutable objects
+4. It accepts and maintains duplicate elements
+5. It maintains the insertion order
+6. It supports indexing and slicing
+"""
+t1 = (10, 20, 30, 40, 50, 10, 10)
+print(f"t1:\t{t1}")
+# t1[0] = 1000  # Error because tuple is immutable object
+t11 = tuple([1, 2, 3])
+t22 = (10, 20, 30)
+t3 = t11+t22
+print(f"t11:\t{t11}")
+print(f"t22:\t{t22}")
+print(f"t3:\t{t3}")
+t4 = t11*3
+print(f"t4:\t{t4}")
+
+print("t1[0]:\t", t1[0])
+print("t1[0:5]:\t", t1[0:5])

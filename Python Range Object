@@ -11,3 +11,16 @@ print("t1:\t", t1)
 print("list(r2):\t", list(r2))
 print("tuple(r3):\t", tuple(r3))
 print("tuple(r4):\t", tuple(r4))
+l1 = [10, 20, 30, 40, 50, 60, 70]
+# Length of l1: 7
+
+print("Getting elements by using While loop.....")
+i = 0
+while i < len(l1):
+    print(l1[i], end=" ")
+    i += 1
+
+print("\nGetting elements by using for loop.....")
+# 0,1,2,3,4,5,6
+for i in range(len(l1)):
+    print(l1[i], end=" ")

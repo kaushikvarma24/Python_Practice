@@ -1,0 +1,13 @@
+r1 = range(10)
+r2 = range(1, 11)
+r3 = range(2, 11, 2)
+r4 = range(1, 11, 2)
+
+l1 = list(r1)
+t1 = tuple(r1)
+print("r1:\t", r1)
+print("l1:\t", l1)
+print("t1:\t", t1)
+print("list(r2):\t", list(r2))
+print("tuple(r3):\t", tuple(r3))
+print("tuple(r4):\t", tuple(r4))

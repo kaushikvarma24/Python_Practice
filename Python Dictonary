@@ -1,0 +1,5 @@
+d1 = {}
+d2 = dict()
+
+print("d1:\t", d1, type(d1))
+print("d2:\t", d2, type(d2))
